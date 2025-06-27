@@ -1,13 +1,5 @@
-- National Scholarship of Graduate Student, 2024.
+- Second Prize of the 17th May Day Mathematical Contest in Modeling, 2020.
 
-- First-prize Scholarship of CUMT, 2024.
+- Outstanding Communist Youth League cadre, 2020.
 
-- First-prize Scholarship of CUMT, 2023.
-
-- Freshman Scholarship of CUMT, 2022.
-
-- Excellent Graduation Project of Jiangsu Province, 2022.
-
-- First-prize Enterprise Scholarship of CUMT, 2020.
-
-- First-prize Scholarship of CUMT, 2019.
+- First Prize in Sichuan Province of China Undergraduate Mathematical Contest in Modeling, 2019.
