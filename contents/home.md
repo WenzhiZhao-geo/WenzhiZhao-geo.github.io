@@ -2,15 +2,14 @@
 
 [![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+He is currently pursuing a PhD's Degree in Earth Science, at The Asian School of the Environment, Nanyang Technological University, Singapore.
 
 #### Email
-sli[at]cumt.edu.cn
+wenzhi001[at]e.ntu.edu.sg
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+M.E., Geotechnical Engineering, Tongji University, 2021—2024.
+B.E., City Underground Space Engineering, Southwest Jiaotong University, 2017—2021.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
-
+Earthquake mechanics, Friction, Induced seismicity.
