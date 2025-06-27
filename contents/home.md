@@ -1,6 +1,6 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![wenzhizhao](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/WenzhiZhao-geo)
 
 He is currently pursuing a PhD's Degree in Earth Science, at The Asian School of the Environment, Nanyang Technological University, Singapore.
 
