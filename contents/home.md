@@ -13,4 +13,4 @@ M.E., Geotechnical Engineering, Tongji University, 2021—2024.
 B.E., City Underground Space Engineering, Southwest Jiaotong University, 2017—2021.
 
 #### Research Interests
-Earthquake mechanics, Friction, Induced seismicity.
+Earthquake mechanics, Fault friction, Induced seismicity.
