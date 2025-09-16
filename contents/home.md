@@ -2,7 +2,7 @@
 
 [![wenzhizhao](https://img.shields.io/badge/wenzhizhao-github-blue?logo=github)](https://github.com/WenzhiZhao-geo)
 
-He is currently pursuing a PhD's Degree in Earth Science, at The Asian School of the Environment, Nanyang Technological University, Singapore.
+He is currently pursuing a PhD at the Asian School of the Environment, Nanyang Technological University, Singapore.
 
 #### Email
 wenzhi001@e.ntu.edu.sg
