@@ -113,4 +113,4 @@ Once this project is on GitHub, click **Fork** on its repository page and choose
 
 ## License
 
-[MIT License](LICENSE). Copyright (c) 2026 wenzhi zhao.
+[MIT License](LICENSE). Copyright (c) 2026 wenzhi zhao. The website source code is licensed under the MIT License. Personal text, photographs, the CV, and research figures are excluded from this license. Unless otherwise stated, rights to these materials are reserved by their respective copyright holders. Publications and third-party materials remain subject to their own licenses and copyright terms.
