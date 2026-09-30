@@ -193,3 +193,107 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 .gallery-card-research .gallery-link { background: white; }
 .gallery-card-research .gallery-link img { object-fit: contain; }
 .gallery-card-research .gallery-link:hover img { transform: none; }
+
+/* Shared typography and color hierarchy. */
+:root {
+  --ink: #34444a;
+  --heading: #203139;
+  --muted: #5e6c72;
+  --accent: #21675f;
+  --line: #dce3e1;
+  --tint: #f0f5f2;
+  --paper: #fcfdfb;
+  --body-size: 18px;
+  --detail-size: 16px;
+  --item-size: 20px;
+}
+body { font-size: var(--body-size); line-height: 1.75; }
+h1, h2, h3 { color: var(--heading); }
+strong { font-weight: 600; color: var(--heading); }
+a { text-underline-offset: 4px; text-decoration-thickness: 1px; text-decoration-color: #90b3ab; }
+a:hover { text-decoration-color: currentColor; }
+.header-inner { min-height: 84px; }
+.wordmark { font-size: 28px; font-weight: 700; color: var(--heading); letter-spacing: -1px; }
+nav { gap: 26px; }
+nav a { font-size: var(--detail-size); font-weight: 500; }
+.hero { grid-template-columns: minmax(0, 1fr) 250px; gap: 64px; padding: 76px 0 80px; }
+.eyebrow { font-size: var(--detail-size); font-weight: 500; letter-spacing: .06em; text-transform: none; color: var(--muted); margin-bottom: 22px; }
+.eyebrow::before { height: 1px; width: 28px; }
+h1 { font-size: clamp(52px, 6vw, 72px); line-height: 1.12; letter-spacing: -2px; }
+.hero-about-heading, .small-heading, .quick-contact-title { font-size: var(--detail-size); line-height: 1.5; font-weight: 600; color: var(--muted); letter-spacing: .025em; text-transform: none; }
+.hero-about .role { font-size: 24px; font-weight: 500; line-height: 1.5; color: var(--heading); margin-top: 12px; max-width: 560px; }
+.affiliation { margin-top: 22px; font-size: var(--detail-size); line-height: 1.9; }
+.affiliation a { color: var(--muted); text-decoration-color: #c0ceca; }
+.affiliation a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.hero-about > p:not(.role):not(.affiliation) { font-size: var(--body-size); line-height: 1.8; margin-top: 26px; }
+.small-heading { margin-top: 28px; margin-bottom: 12px; }
+.tags { gap: 8px; }
+.tags li { font-size: var(--detail-size); line-height: 1.5; color: var(--ink); border-color: var(--line); padding: 7px 12px; }
+.hero-actions { gap: 24px; margin-top: 30px; font-size: var(--detail-size); font-weight: 500; }
+.button { padding: 12px 22px; }
+.hero .profile-sidebar { margin-top: 14px; }
+.quick-contact { padding: 22px 0 0; }
+.quick-contact-links { gap: 4px 16px; }
+.quick-contact-links a { font-size: var(--detail-size); font-weight: 500; }
+.section { padding: 56px 0 64px; }
+.section-heading { gap: 12px; }
+.section-number { color: var(--muted); font-size: var(--detail-size); line-height: 1.5; letter-spacing: 0; }
+.section-number::after { background: #9eb8b0; }
+h2 { font-size: 32px; letter-spacing: -.5px; }
+.education-item { padding: 20px 18px; }
+.education-item + .education-item { margin-top: 12px; }
+.degree-label { font-size: var(--body-size); line-height: 1.5; font-weight: 600; color: var(--accent); }
+.education-field { font-size: var(--item-size); font-weight: 600; color: var(--heading); line-height: 1.5; }
+.education-details .education-school { font-size: var(--body-size); color: var(--ink); margin-top: 5px; }
+.education-details .education-date { font-size: var(--detail-size); color: var(--muted); margin-top: 6px; }
+.publication-scholar { margin-bottom: 24px; font-size: var(--detail-size); }
+.publication { padding-block: 0; }
+.publication + .publication { margin-top: 30px; padding-top: 30px; }
+.publication h3, .award h3 { font-size: var(--item-size); line-height: 1.5; font-weight: 600; }
+.publication h3 a { color: var(--heading); text-decoration-color: #bccdc7; }
+.publication h3 a:hover { color: var(--accent); }
+.authors { font-size: var(--detail-size); line-height: 1.8; color: var(--ink); margin-top: 12px; }
+.venue { font-size: var(--detail-size); color: var(--muted); margin-top: 8px; line-height: 1.7; }
+.paper-links { margin-top: 16px; font-size: var(--detail-size); font-weight: 500; }
+.award:first-child { padding-top: 0; }
+.award + .award { margin-top: 10px; }
+.award-year { color: var(--muted); font-size: var(--detail-size); line-height: 1.875; }
+.award p { font-size: var(--body-size); margin-top: 6px; }
+.gallery-intro, .contact-intro { font-size: var(--body-size); line-height: 1.75; color: var(--ink); margin-bottom: 24px; }
+.gallery-grid { gap: 24px; }
+.gallery-link { border-radius: 6px; }
+.gallery-open { right: 10px; bottom: 10px; padding: 5px 10px; font-size: var(--detail-size); }
+.gallery-card figcaption { flex-direction: column; align-items: flex-start; margin-top: 18px; gap: 0; }
+.gallery-card figcaption span:first-child { font-size: var(--detail-size); line-height: 1.5; color: var(--muted); font-weight: 400; }
+.gallery-card figcaption span:nth-child(2) { font-size: var(--item-size); line-height: 1.5; color: var(--heading); font-weight: 600; margin-top: 6px; }
+.gallery-description { flex-basis: auto; margin: 8px 0 0; font-size: var(--detail-size); line-height: 1.8; color: var(--ink); }
+.contact-list > div { grid-template-columns: 156px minmax(0, 1fr); gap: 20px; padding: 20px 0; }
+dt { font-size: var(--detail-size); line-height: 1.96875; }
+dd { font-size: var(--body-size); font-weight: 400; }
+.lightbox-footer p, .site-footer { font-size: var(--detail-size); }
+@media (max-width: 900px) {
+  .hero { grid-template-columns: minmax(0, 1fr) 210px; gap: 30px; }
+  h1 { font-size: 60px; }
+  .contact-list > div { grid-template-columns: 1fr; gap: 4px; }
+  .award { flex-direction: column; gap: 4px; }
+  .award-year { flex-basis: auto; }
+}
+@media (max-width: 640px) {
+  .header-inner { min-height: 0; }
+  .wordmark { font-size: 26px; }
+  nav { gap: 4px 14px; }
+  .hero { grid-template-columns: 1fr; gap: 32px; padding-block: 38px 48px; }
+  .hero .profile-sidebar { margin-top: 0; }
+  .quick-contact { padding-top: 18px; }
+  .eyebrow { margin-bottom: 18px; }
+  h1 { font-size: clamp(46px, 11vw, 60px); letter-spacing: -1.5px; }
+  .hero-about .role { font-size: 22px; }
+  .hero-actions { gap: 14px 22px; }
+  .section { gap: 26px; padding-block: 40px 48px; }
+  .section-heading { gap: 18px; }
+  h2 { font-size: 30px; }
+}
+@media (max-width: 480px) {
+  .education-item { padding: 16px 10px; }
+  .gallery-grid { gap: 30px; }
+}
