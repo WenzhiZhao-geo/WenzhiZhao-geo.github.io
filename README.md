@@ -16,12 +16,12 @@ styles.css                         Typography, colors, spacing, and responsive l
 script.js                          Navigation and entrance animations
 gallery.js                         Profile links and image viewer
 data/links.js                      Contact links and mailing address
-assets/cv/cv.pdf                    Downloadable academic CV
+assets/cv/cv.pdf                   Downloadable academic CV
 assets/images/favicon.svg          Browser icon
-assets/images/portrait.webp         Homepage portrait
-assets/images/gallery/Figure1.jpg  CouFrac 2026 conference
-assets/images/gallery/Figure2.jpg  Research on rapid healing
-assets/images/gallery/Figure3.jpg  Life beyond academia
+assets/images/portrait.webp        Homepage portrait
+assets/images/gallery/Figure1.jpg  Figures
+assets/images/gallery/Figure2.jpg  Figures
+assets/images/gallery/Figure3.jpg  Figures
 assets/papers/*.bib                Publication citations
 .nojekyll                          Disable Jekyll processing on GitHub Pages
 LICENSE                            MIT license
